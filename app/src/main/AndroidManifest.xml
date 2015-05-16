@@ -28,6 +28,10 @@
             android:name=".StoreData"
             android:label="@string/title_activity_store_data" >
         </activity>
+        <activity
+            android:name=".WebRetrieve"
+            android:label="@string/title_activity_web_retrieve" >
+        </activity>
     </application>
 
 </manifest>

@@ -8,5 +8,6 @@
     <string name="title_activity_session">Session</string>
     <string name="title_activity_registration">Registration</string>
     <string name="title_activity_store_data">StoreData</string>
+    <string name="title_activity_web_retrieve">WebRetrieve</string>
 
 </resources>
