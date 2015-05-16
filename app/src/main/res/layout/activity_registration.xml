@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".Registration"
+    android:id="@+id/id">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="match_parent"
+            android:text="Username"
+            android:paddingTop="10dp"
+            android:id="@+id/unametextr" />
+
+
+
+        <EditText
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/unamer"
+            android:paddingBottom="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="108dp"
+            android:layout_height="match_parent"
+            android:text="Password"
+            android:id="@+id/textView2r"
+            android:paddingTop="13dp"/>
+        <EditText
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:id="@+id/passr" />
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/buttonr"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"/>
+
+
+
+
+
+
+
+
+</LinearLayout>
